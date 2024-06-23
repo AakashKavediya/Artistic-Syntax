@@ -89,6 +89,15 @@ body aside #social_media a:hover {
 
 /* -----HEADER------------------------------------------------- */
 
+header {
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #sidebar {
     padding-left: 20px;
 }
@@ -96,7 +105,7 @@ body aside #social_media a:hover {
 aside {
     background-color: rgb(0, 0, 0);
     color: white;
-    width: 30px;
+    width: 35px;
     display: block;
     position: fixed;
     height: 100vh;
@@ -116,4 +125,232 @@ aside.active {
 aside ol li {
     display: block;
     /* transition: border-left 0.5s; */
+}
+
+
+/* ---------MAIN---------------------------------------------------- */
+
+
+/* -------CARDS------------------------------------------------- */
+
+main {
+    margin-left: 35px;
+    /* height: 100vh; */
+    background-color: whitesmoke;
+    padding-top: 10px;
+}
+
+main #cards {
+    padding: 20px;
+    width: 90%;
+    background: url(/images/bg2.jpg)no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100vh; */
+}
+
+main #flashcards {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+main #cards .canvas img {
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+main #cards .canvas {
+    width: 250px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: #ffffffd4;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+main #cards .canvas p {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+main #cards .canvas a {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: skyblue;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+main #cards .canvas h4 {
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* ------PROJECTS---------------------------------------- */
+
+
+/* 
+main article #projects span img {
+    width: 320px;
+    border-radius: 10px;
+    border: 2px solid #ededed
+}
+
+main article #projects span {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+main article #projects span b {
+    padding-top: 5px;
+    font-size: 18px;
+    color: #000;
+}
+
+main article #projects {
+    display: flex;
+    /* overflow-x: scroll; 
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+main article h2 {
+    background-color: #fff;
+    color: orange;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 800;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: max-content;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+main article {
+    background: url(/images/bg4.jpg) no-repeat;
+    background-size: cover;
+    /* height: 100vh; 
+    padding: 20px;
+    padding-top: 40px;
+    /* max-height: 100vh; 
+    overflow-y: scroll;
+}
+
+main article #projects span a {
+    width: 300px;
+    padding: 8px;
+    background-color: orange;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 600;
+} 
+*/
+
+
+/* -------CONTEXT---------------------------------------- */
+
+#headerr {
+    margin-right: 10px;
+    margin-left: 60px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#headerr h2 {
+    margin-right: auto;
+}
+
+main h2 {
+    border-bottom: 7px solid whitesmoke;
+}
+
+main h4 {
+    margin-bottom: 10px;
+}
+
+main h3 {
+    margin-bottom: 10px;
+}
+
+main nav {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+main nav a {
+    width: 130px;
+    background-color: lightgray;
+    margin-right: 10px;
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main nav a:hover {
+    color: white;
+}
+
+article {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+@media(max-width:800px) {
+    article {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    main #cards {
+        width: 100%;
+    }
 }

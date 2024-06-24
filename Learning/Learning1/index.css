@@ -198,3 +198,29 @@ main ol li span {
     color: red;
     font-weight: 600;
 }
+
+
+/* ----MEDIA----------------------------------- */
+
+@media(max-width:800px) {
+    header h1,
+    header {
+        width: 100%;
+        /* margin-left: 30px; */
+        margin-left: none;
+        margin-right: none;
+    }
+    #image img {
+        height: 100px;
+    }
+    main {
+        margin-left: 30px;
+        margin-left: none;
+        margin-right: none;
+    }
+    article {
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+    }
+}

@@ -227,3 +227,25 @@ form #name i,
 form #mail i {
     color: white;
 }
+
+
+/* ----MEDIA----------------------------------- */
+
+@media(max-width:800px) {
+    header h1,
+    header {
+        width: 100%;
+        /* margin-left: 30px; */
+        margin-left: none;
+        margin-right: none;
+    }
+    form {
+        width: 90%;
+    }
+    main {
+        margin-left: 30px;
+    }
+    article {
+        width: 100%;
+    }
+}

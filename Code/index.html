@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Artistic Syntax - Code </title>
+</head>
+
+<body>
+
+    <aside id="sidebar">
+
+        <div id="sidebar">
+
+            <div id="logo">
+                <img src="/images/Artistic Syntax_edited.jpg" alt="Loading...">
+            </div>
+            <div id="main_link">
+                <span><a href="/index.html"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a></span>
+                <span><a href="/profile/index.html"><i class="fa-solid fa-user"></i>
+                    <p>Profile</p>
+                </a></span>
+                <span><a href="/Learning/index.html"><i class="fa-solid fa-brain"></i>
+                    <p>Learning</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-code"></i>
+                    <p>Code</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-icons"></i>
+                    <p>Icons</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-right-to-bracket"></i>
+                    <p>Log-In</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-message"></i>
+                    <p>Contact Us</p>
+                </a></span>
+            </div><br>
+            <h4 style="color: orange;font-weight: 800;"><span>Connections</span></h4><br>
+            <div id="social_media">
+                <span><a href="https://www.instagram.com/artistic_syntax/"><i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a></span>
+                <span><a href="https://www.linkedin.com/in/aakash-kavediya/"><i class="fa-brands fa-linkedin"></i>
+                    <p>Linkedin</p>
+                </a></span>
+                <span><a href="https://github.com/AakashKavediya/"><i class="fa-brands fa-github"></i>
+                    <p>Git Hub</p>
+                </a></span>
+                <span><a href="https://codepen.io/Aakash-Kavediya/"><i class="fa-brands fa-codepen"></i>
+                    <p>Code Pen</p>
+                </a></span>
+                <span><a href="https://replit.com/@Aakash2006/"><i class="fa-brands fa-python"></i>
+                    <p>Repl-it</p>
+                </a></span>
+                <span><a href="https://twitter.com/AKavediya"><i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                </a></span>
+                <span><a href="https://t.me/Mr_Codr"><i class="fa-brands fa-telegram"></i>
+                    <p>Telegram</p>
+                </a></span>
+                <span><a href="https://www.youtube.com/channel/UCgJJ_7dLWSGvYIEdNkJlQDQ"><i
+                        class="fa-brands fa-youtube"></i>
+                    <p>Youtube</p>
+                </a></span>
+            </div>
+        </div>
+    </aside>
+    <div style="position: fixed; color: white; font-size: 20px; margin-left: 5px;font-size: 29px;font-weight: 900; margin-top: 5px; " id="head">
+        <i class="fas fa-bars" id="sidebarToggle"></i>
+    </div>
+
+    <!-- -----------SCRIPT---------------------------------------------- -->
+
+    <script>
+        document.getElementById('sidebarToggle').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        });
+
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            var body = section.querySelector('.body');
+            if (body.style.display === 'none' || body.style.display === '') {
+                body.style.display = 'block';
+            } else {
+                body.style.display = 'none';
+            }
+        }
+    </script>
+
+    <!-- ------------MAIN-------------------------------------------------- -->
+
+    <main>
+        <!-- ----------HEADER-------------------------------------------------- -->
+
+        <header>
+            <h1 style="font-weight: 500;padding: 10px;padding-left: 20px;">Artistic Syntax - Code</h1>
+        </header>
+
+        <!-- ---------CONTENT----------------------------------------------- -->
+
+        <article>
+            <div class="row" id="row1">
+                <div class="box" id="box1">
+                    <h3>HTML & CSS</h3>
+                    <nav>
+                        <a href="../Page1/index.html">Youtube Clone</a>
+                        <a href="../Page2/index.html">Advertisement-Website</a>
+                        <a href="../Page3/index.html">Scientists Website</a>
+                        <a href="../Page4/index.html">Mobile Netflix</a>
+                        <a href="../Page5/index.html">Dextop Netflix</a>
+                        <a href="../Page6/index.html">Debit Card Clone</a>
+                        <a href="../Page7/index.html">WhatsApp-Mobile</a>
+                        <a href="../Page8/index.html">WhatsApp-Website</a>
+                        <a href="../Page9/index.html">Social Media-1</a>
+                        <a href="../Page10/index.html">Social Media-2</a>
+                        <a href="../Page11/index.html">Mobile UI</a>
+                        <a href="../Page22/index.html">Shopping Website</a>
+                        <a href="../Page28/index.html">Image Editor</a>
+                        <a href="../Page29/index.html">CSS Grid Layout</a>
+                        <a href="../Page30/index.html">Create Website - 1</a>
+                        <a href="../Page31/index.html">Create Website - 2</a>
+                        <a href="../Page32/index.html">MKBHD Website Clone</a>
+                        <a href="../Page33/index.html">Create Debit Card</a>
+                        <a href="../Page34/index.html">Signin + Signup + Forget Password + Home Page</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="box" id="box1">
+                    <h3>Python</h3>
+                    <nav>
+                        <a href="../Page24/index.html">HangMan Game</a>
+                        <a href="../Page25/index.html">Random Number</a>
+                        <a href="../Page26/index.html">Letter Count</a>
+                        <a href="../Page27/index.html">Get Factor</a>
+                        <a href="../Page23/index.html">Voting Age</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row" id="row3">
+                <div class="box" id="box1">
+                    <h3>JavaScript</h3>
+                    <nav>
+                        <a href="../Page12/index.html">AirPlane Game</a>
+                        <a href="../Page13/index.html">Car Game</a>
+                        <a href="../Page14/index.html">Iron Man Game</a>
+                        <a href="../Page15/index.html">HTML to Mail</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row" id="row4">
+                <div class="box" id="box1">
+                    <h3>React Native</h3>
+                    <nav>
+                        <a href="../Page16/index.html">Weather App</a>
+                        <a href="../Page17/index.html">Instagram Clone</a>
+                        <a href="../Page18/index.html">Netflix Clone</a>
+                        <a href="../Page19/index.html">Note It App</a>
+                        <a href="../Page20/index.html">Static Calculator</a>
+                        <a href="../Page21/index.html">Clock Count</a>
+                    </nav>
+                </div>
+            </div>
+
+        </article>
+
+    </main>
+
+
+</body>
+
+</html>

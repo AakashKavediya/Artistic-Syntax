@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyD7WD1Ns0SPTA0lI5TnA1ICMw1pgzrU7WY",
+            authDomain: "artistic-syntax-35ef0.firebaseapp.com",
+            databaseURL: "https://artistic-syntax-35ef0-default-rtdb.firebaseio.com",
+            projectId: "artistic-syntax-35ef0",
+            storageBucket: "artistic-syntax-35ef0.appspot.com",
+            messagingSenderId: "435159059795",
+            appId: "1:435159059795:web:ed29ca24fe062d9cf0a5a6",
+            measurementId: "G-TDDDY32GJZ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Referance for database
+
+        var contactDB = firebase.database.ref("contact");
+
+        document.getElementById("contact").addEventListener("submit", submitform);
+
+        function submitform(e) {
+            e.preventDefault();
+
+            var name = getElementVal("name");
+            // var phone = getElementVal("phone");
+            var email = getElementVal("email");
+            // var message = getElementVal("message");
+
+            console.log(name, email);
+        }
+
+        const getElementVal = (id) => {
+            return document.getElementById(id).value;
+        };
+    </script>
+
+</body>
+
+</html>

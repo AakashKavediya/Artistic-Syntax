@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Artistic Syntax - Projects</title>
+</head>
+
+<body>
+
+    <aside id="sidebar">
+
+        <div id="sidebar">
+
+            <div id="logo">
+                <img src="/images/Artistic Syntax_edited.jpg" alt="Loading...">
+            </div>
+            <div id="main_link">
+                <span><a href="../index.html"><i class="fa-solid fa-house"></i>
+                            <p>Home</p>
+                        </a></span>
+                <span><a href="../profile/index.html"><i class="fa-solid fa-user"></i>
+                            <p>Profile</p>
+                        </a></span>
+                <span><a href="../Learning/index.html"><i class="fa-solid fa-brain"></i>
+                            <p>Learning</p>
+                        </a></span>
+                <span><a href="../icon/index.html"><i class="fa-solid fa-icons"></i>
+                            <p>Icons</p>
+                        </a></span>
+                <span><a href="#"><i class="fa-solid fa-plane"></i>
+                            <p>Projects</p>
+                        </a></span>
+                <span><a href="../Contact US/index.html"><i class="fa-solid fa-message"></i>
+                            <p>Contact Us</p>
+                        </a></span>
+            </div><br>
+            <h4 style="color: orange;font-weight: 800;"><span>Connections</span></h4><br>
+            <div id="social_media">
+                <span><a href="https://www.instagram.com/artistic_syntax/"><i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a></span>
+                <span><a href="https://www.linkedin.com/in/aakash-kavediya/"><i class="fa-brands fa-linkedin"></i>
+                    <p>Linkedin</p>
+                </a></span>
+                <span><a href="https://github.com/AakashKavediya/"><i class="fa-brands fa-github"></i>
+                    <p>Git Hub</p>
+                </a></span>
+                <span><a href="https://codepen.io/Aakash-Kavediya/"><i class="fa-brands fa-codepen"></i>
+                    <p>Code Pen</p>
+                </a></span>
+                <span><a href="https://replit.com/@Aakash2006/"><i class="fa-brands fa-python"></i>
+                    <p>Repl-it</p>
+                </a></span>
+                <span><a href="https://twitter.com/AKavediya"><i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                </a></span>
+                <span><a href="https://t.me/Mr_Codr"><i class="fa-brands fa-telegram"></i>
+                    <p>Telegram</p>
+                </a></span>
+                <span><a href="https://www.youtube.com/channel/UCgJJ_7dLWSGvYIEdNkJlQDQ"><i
+                        class="fa-brands fa-youtube"></i>
+                    <p>Youtube</p>
+                </a></span>
+            </div>
+        </div>
+    </aside>
+    <div style="position: fixed; color: white; font-size: 20px; margin-left: 5px;font-size: 29px;font-weight: 900; margin-top: 5px; " id="head">
+        <i class="fas fa-bars" id="sidebarToggle"></i>
+    </div>
+
+    <!-- -----------SCRIPT---------------------------------------------- -->
+
+    <script>
+        document.getElementById('sidebarToggle').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        });
+
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            var body = section.querySelector('.body');
+            if (body.style.display === 'none' || body.style.display === '') {
+                body.style.display = 'block';
+            } else {
+                body.style.display = 'none';
+            }
+        }
+    </script>
+
+    <!-- ------------MAIN-------------------------------------------------- -->
+
+    <main>
+        <!-- ----------HEADER-------------------------------------------------- -->
+
+        <header>
+            <h1 style="font-weight: 500;padding: 10px;padding-left: 20px;">Artistic Syntax - Projects</h1>
+        </header>
+
+        <!-- ---------FLASH CARDS----------------------------------------------- -->
+
+        <article>
+            <h2>Projects: HTML and CSS</h2>
+            <div id="html">
+                <div class="box">
+                    <img src="../project Images/youtube.png" alt="Loading">
+                    <h3>YouTube Clone</h3>
+                    <a href="https://aakashkavediya.github.io/AakaTube/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Advertisement 1.png" alt="Loading">
+                    <h3>Advertisement Website-1</h3>
+                    <a href="https://aakashkavediya.github.io/Advertisement-Website/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/scientist website.png" alt="Loading">
+                    <h3>Scientist Info</h3>
+                    <a href="https://aakashkavediya.github.io/TheGreatScientists/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Netflix Mobile.png" alt="Loading">
+                    <h3>Netflix Clone-Mobile</h3>
+                    <a href="https://aakashkavediya.github.io/NetflixMobileVersion/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Netflix Dextop.png" alt="Loading">
+                    <h3>Netflix Clone-Desktop</h3>
+                    <a href="https://aakashkavediya.github.io/Netflix-WebsiteVersion/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Creadit card.png" alt="Loading">
+                    <h3>Debit Card Clone</h3>
+                    <a href="https://aakashkavediya.github.io/DebitCardClone/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Whatsapp mobile.png" alt="Loading">
+                    <h3>Whatsapp Clone - Mobile</h3>
+                    <a href="https://aakashkavediya.github.io/WhatsApp-Mobile/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/whatsapp destop.png" alt="Loading">
+                    <h3>Whatsapp Clone - Desktop</h3>
+                    <a href="https://aakashkavediya.github.io/WhatsApp-Website/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Website1.png" alt="Loading">
+                    <h3>Website Idea - 1</h3>
+                    <a href="https://aakashkavediya.github.io/SocialMedia-1/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/website2.png" alt="Loading">
+                    <h3>Website Idea - 2</h3>
+                    <a href="https://aakashkavediya.github.io/SocialMedia-2/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Mobile UI.png" alt="Loading">
+                    <h3>Mobile UI</h3>
+                    <a href="https://aakashkavediya.github.io/Mobile-UI/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Advertisement2.png" alt="Loading">
+                    <h3>Advertisement Website - 2/h3>
+                        <a href="https://aakashkavediya.github.io/Shopping/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/CSS Grid.png" alt="Loading">
+                    <h3>CSS Grid Layout</h3>
+                    <a href="https://aakashkavediya.github.io/CSSGridLayout/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/create website2.png" alt="Loading">
+                    <h3>Create Website - 1</h3>
+                    <a href="https://aakashkavediya.github.io/CreateWebsite-2/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/MKBHD clone.png" alt="Loading">
+                    <h3>MKBHD Website Clone</h3>
+                    <a href="https://aakashkavediya.github.io/MKBHD/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Login page.png" alt="Loading">
+                    <h3>Login Page</h3>
+                    <a href="https://aakashkavediya.github.io/ShopMall/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Sales Page.png" alt="Loading">
+                    <h3>Sales Website</h3>
+                    <a href="https://aakashkavediya.github.io/ShopMall/Home%20page/index.html?firstname=Aakash&password=aa&submit=">Visit</a>
+                </div>
+
+            </div><br>
+            <h2>Projects: Python</h2>
+            <div id="html">
+                <div class="box">
+                    <img src="https://i.pinimg.com/236x/f1/9a/d3/f19ad3dbaac9e9e1590e67d85c01a65c.jpg" alt="Loading">
+                    <h3>Hangman Game</h3>
+                    <a href="https://replit.com/@Aakash2006/Hangman-Game-1#main.py">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/236x/38/b5/d6/38b5d6251f225b5a6c3346131209ab29.jpg" alt="Loading">
+                    <h3>Random Number</h3>
+                    <a href="https://replit.com/@Aakash2006/Student-Activity-2-Random#main.py">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/236x/aa/90/39/aa9039f777a76657e28798a0ec92bf21.jpg" alt="Loading">
+                    <h3>Letter Count</h3>
+                    <a href="https://replit.com/@Aakash2006/Letters-in-a-Word#main.py">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/236x/25/f0/a5/25f0a557b5c2a335c6d3fbfd26ba3ff1.jpg" alt="Loading">
+                    <h3>Voting Age</h3>
+                    <a href="https://replit.com/@Aakash2006/Voting#main.py">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/564x/e7/ae/52/e7ae523d0bd07cf5e74f2db1df38fd2d.jpg" alt="Loading">
+                    <h3>Get Factor</h3>
+                    <a href="https://replit.com/@Aakash2006/function#main.py">Visit</a>
+                </div>
+            </div><br>
+            <h2>JavaScript</h2>
+            <div id="html">
+                <div class="box">
+                    <img src="../project Images/plane.png" alt="Loading">
+                    <h3>Airplane Game</h3>
+                    <a href="https://aakashkavediya.github.io/AirplaneGame/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/car.png" alt="Loading">
+                    <h3>Car Game</h3>
+                    <a href="https://aakashkavediya.github.io/Car-Game/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/ironMan.png" alt="Loading">
+                    <h3>Iron man Game</h3>
+                    <a href="https://aakashkavediya.github.io/Iron-ManGame/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/JS Form.png" alt="Loading">
+                    <h3>JS Mail Sender</h3>
+                    <a href="https://aakashkavediya.github.io/HTML-TO-Mail/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Create website1.png" alt="Loading">
+                    <h3>Create website - 1</h3>
+                    <a href="https://aakashkavediya.github.io/CreateWebiste-1/">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Image Editor.png" alt="Loading">
+                    <h3>Image Editor</h3>
+                    <a href="https://aakashkavediya.github.io/Image-Editor">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="../project Images/Creadit card.png" alt="Loading">
+                    <h3>Create Debit Card</h3>
+                    <a href="https://aakashkavediya.github.io/CreateDebitCard/">Visit</a>
+                </div>
+            </div><br>
+            <h2>React Native</h2>
+            <div id="html">
+                <div class="react">
+                    <img src="../project Images/Weather.png" alt="Loading">
+                    <h3>Weather App</h3>
+                    <a href="https://snack.expo.dev/@aakashak47/weather-app">Visit</a>
+                </div>
+                <div class="react">
+                    <img src="../project Images/instagram.png" alt="Loading">
+                    <h3>Instagram Clone</h3>
+                    <a href="https://snack.expo.dev/@aakashak47/instagram-clone">Visit</a>
+                </div>
+                <div class="react">
+                    <img src="../project Images/netxlixMob.png" alt="Loading">
+                    <h3>Netflix Clone</h3>
+                    <a href="https://snack.expo.dev/@aakashak47/netflix-perfect">Visit</a>
+                </div>
+                <div class="react">
+                    <img src="../project Images/reminder.png" alt="Loading">
+                    <h3>Note It App</h3>
+                    <a href="https://snack.expo.dev/@aakashak47/note-it-perfect">Visit</a>
+                </div>
+                <div class="react">
+                    <img src="../project Images/Calculator.png" alt="Loading">
+                    <h3>Static Calculator</h3>
+                    <a href="https://snack.expo.dev/@aakashak47/calculatoooooor">Visit</a>
+                </div>
+                <div class="react">
+                    <img src="../project Images/counter.png" alt="Loading">
+                    <h3>Clock Count</h3>
+                    <a href="https://snack.expo.dev/@aakashak47/stop-watch">Visit</a>
+                </div>
+            </div><br>
+            <h2>Projects: C++</h2>
+            <div id="html">
+                <div class="box">
+                    <img src="https://i.pinimg.com/564x/98/1b/5e/981b5ea008b4ac83669ed9ae53d30553.jpg" alt="">
+                    <h3>Addition</h3>
+                    <a href="https://replit.com/@Aakash2006/learning-10-C">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/564x/f6/e3/ed/f6e3edcae94e91e3a97b1f0d7c183aa5.jpg" alt="">
+                    <h3>Average</h3>
+                    <a href="https://replit.com/@Aakash2006/Learning-15-C">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/236x/a9/0b/be/a90bbe45a1aaaaaf702a75fb2f6cacf7.jpg" alt="">
+                    <h3>ID Card</h3>
+                    <a href="https://replit.com/@Aakash2006/Revision-C-1">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/736x/63/6f/90/636f90f81efedfdd36f640fc64c09528.jpg" alt="">
+                    <h3>Complex Number (+)</h3>
+                    <a href="https://replit.com/@Aakash2006/Learning-12-C">Visit</a>
+                </div>
+                <div class="box">
+                    <img src="https://i.pinimg.com/564x/3d/e4/b2/3de4b260c9d06d4cf2f1e04dabb9994b.jpg" alt="">
+                    <h3>Factorial</h3>
+                    <a href="https://replit.com/@Aakash2006/Learning-5-C">Visit</a>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+
+</body>
+
+</html>

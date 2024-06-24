@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Artistic Syntax - Learning: HTML Table</title>
+</head>
+
+<body>
+
+    <aside id="sidebar">
+
+        <div id="sidebar">
+
+            <div id="logo">
+                <img src="/images/Artistic Syntax_edited.jpg" alt="Loading...">
+            </div>
+            <div id="main_link">
+                <span><a href="/index.html"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a></span>
+                <span><a href="/profile/index.html"><i class="fa-solid fa-user"></i>
+                    <p>Profile</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-brain"></i>
+                    <p>Learning</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-code"></i>
+                    <p>Code</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-icons"></i>
+                    <p>Icons</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-right-to-bracket"></i>
+                    <p>Log-In</p>
+                </a></span>
+                <span><a href="#"><i class="fa-solid fa-message"></i>
+                    <p>Contact Us</p>
+                </a></span>
+            </div><br>
+            <h4 style="color: orange;font-weight: 800;"><span>Connections</span></h4><br>
+            <div id="social_media">
+                <span><a href="https://www.instagram.com/artistic_syntax/"><i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a></span>
+                <span><a href="https://www.linkedin.com/in/aakash-kavediya/"><i class="fa-brands fa-linkedin"></i>
+                    <p>Linkedin</p>
+                </a></span>
+                <span><a href="https://github.com/AakashKavediya/"><i class="fa-brands fa-github"></i>
+                    <p>Git Hub</p>
+                </a></span>
+                <span><a href="https://codepen.io/Aakash-Kavediya/"><i class="fa-brands fa-codepen"></i>
+                    <p>Code Pen</p>
+                </a></span>
+                <span><a href="https://replit.com/@Aakash2006/"><i class="fa-brands fa-python"></i>
+                    <p>Repl-it</p>
+                </a></span>
+                <span><a href="https://twitter.com/AKavediya"><i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                </a></span>
+                <span><a href="https://t.me/Mr_Codr"><i class="fa-brands fa-telegram"></i>
+                    <p>Telegram</p>
+                </a></span>
+                <span><a href="https://www.youtube.com/channel/UCgJJ_7dLWSGvYIEdNkJlQDQ"><i
+                        class="fa-brands fa-youtube"></i>
+                    <p>Youtube</p>
+                </a></span>
+            </div>
+        </div>
+    </aside>
+    <div style="position: fixed; color: white; font-size: 20px; margin-left: 5px;font-size: 29px;font-weight: 900; margin-top: 5px; " id="head">
+        <i class="fas fa-bars" id="sidebarToggle"></i>
+    </div>
+
+    <!-- -----------SCRIPT---------------------------------------------- -->
+
+    <script>
+        document.getElementById('sidebarToggle').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        });
+
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            var body = section.querySelector('.body');
+            if (body.style.display === 'none' || body.style.display === '') {
+                body.style.display = 'block';
+            } else {
+                body.style.display = 'none';
+            }
+        }
+    </script>
+
+    <!-- ------------MAIN-------------------------------------------------- -->
+
+    <main>
+        <!-- ----------HEADER-------------------------------------------------- -->
+
+        <header>
+            <h1 style="font-weight: 500;padding: 10px;padding-left: 20px;">Learning: HTML Table</h1>
+        </header>
+
+        <!-- ---------LINKS----------------------------------------------- -->
+        <article>
+            <h4>What is the use of table?</h4>
+            <p>The table is use to explain and display information in a proper format.</p>
+            <p>HTML tables are mainly use to display the information. But it is also use to display some additional information. Sometime the table is use to display video, audio, images, symbols, etc</p>
+
+            <br>
+            <hr>
+            <br>
+            <h4>HTML Table Border</h4>
+            <p>When you add a border to a table, you also add border around each table cell. You can add border around table with the help of CSS. There are some simple codes to create border in & around table.</p>
+            <br>
+            <hr><br>
+            <h4>HTML Table Size</h4>
+            <b>What does actually table size mean?</b>
+            <ul>
+                <li>The table size is nothing but the actual width you give to an table.
+                </li>
+                <li>The table size can be change on your own preference/thought/thinking🤔. For example, if you create a table and inside the table if you create <b> two or more </b> column, then you can also change the width of the column just by giving
+                    it the
+                    <b>ID</b>. You can also directly change the width, just by adding a
+                    <b>style</b> tag in the original tag.</li>
+            </ul>
+            <br>
+            <hr><br>
+            <h4>HTML Table Header</h4>
+            <p>Table header is actually nothing but the topset part of the table. The table header always has a bold font, so that it looks attractive. The name itself says that it is the header part of the table and it gives the main information what it
+                actually content. </p>
+            <p>The table header has a very simple code that you can see from the code box present below</p>
+            <br>
+            <hr><br>
+            <h4>HTML Table Padding & Spacing</h4>
+            <b>Why Table padding and spacing is used?</b>
+            <p>The Padding and Spacing is the most important part of the table. It makes the table look more attractive and make more people to get read to it. Almost every website present on internet, who uses tables, they always have table padding and
+                spacing because they want their viewer to read whole table. Due to that table their website looks more interesting and attractive so that their viewer come again and again to their website and this increase the revenue or their website.</p>
+            <br>
+            <hr><br>
+            <b>Through the table given below you can have a better look that how you can
+                 create your own table.</b><br>
+            <br> <b><b><b>EXAMPLE (Basic tale structure)</b></b>
+            </b>
+            <div class="table">
+                <table style="width:9px;overflow-x: scroll; padding: 10px;color: gray;width: max-content;text-align: center;border: 2px solid gray;">
+                    <tr></tr>
+                    <tr style="padding: 10px;border: 2px solid gray;text-align: left;">
+                        <th style="padding: 5px;">Project Name</th>
+                        <th style="padding: 5px;">HTML</th>
+                        <th style="padding: 5px;">CSS</th>
+                        <th style="padding: 5px;">JavaScript</th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px;">Mr. Codr</td>
+                        <td style="padding: 5px;">40%</td>
+                        <td style="padding: 5px;">55%</td>
+                        <td style="padding: 5px;">5%</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px;">Science Exp</td>
+                        <td style="padding: 5px;">60%</td>
+                        <td style="padding: 5px;">40%</td>
+                        <td style="padding: 5px;">0%</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px;">Food Shop</td>
+                        <td style="padding: 5px;">30%</td>
+                        <td style="padding: 5px;">50%</td>
+                        <td style="padding: 5px;">20%</td>
+                    </tr>
+                </table>
+            </div><br>
+            <h3>Code Box</h3>
+            <br>
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dydmJBo" data-user="Aakash-Kavediya" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Aakash-Kavediya/pen/dydmJBo">
+                         HTML Table</a> by Aakash Kavediya (<a
+                         href="https://codepen.io/Aakash-Kavediya">@Aakash-Kavediya</a>)
+                     on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <!-- ----------Code Box------------------ -->
+            <br>
+            <!-- <h4>Video</h4> -->
+            <!-- ----------Video------------------ -->
+        </article>
+    </main>
+
+
+</body>
+
+</html>
